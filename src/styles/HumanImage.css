@@ -1,0 +1,46 @@
+.human-image-container {
+  position: relative;
+  display: inline-block;
+  background-color: #F6FAFF;
+  padding: 15px 70px;
+  border-radius: 20px;
+  height: 250px;
+}
+
+.human-image {
+  height: 100%;
+}
+
+.healthy-heart-tag {
+  position: absolute;
+  top: 60px;
+  right: -15px;
+  background-color: #3F51B5;
+  color: white;
+  font-size: 10px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.healthy-leg-tag {
+  position: absolute;
+  bottom: 80px;
+  left: -10px;
+  width: 85px;
+  background-color: #3ef1e6;
+  color: rgb(60, 31, 228);
+  font-size: 10px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border:1px solid #12e2d4;
+  font-weight: 500;
+}
+
+.microscope-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #bdbcbc;
+  cursor: pointer;
+}

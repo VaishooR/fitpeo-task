@@ -1,0 +1,32 @@
+.activity-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 0px 20px;
+  height: 30px;
+}
+.activity-header p:first-child{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.appointment-info {
+  font-size: 10px;
+  color: grey;
+}
+
+.activity-image-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.activity-image {
+  width: 90%;
+}

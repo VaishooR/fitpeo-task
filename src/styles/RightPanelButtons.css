@@ -1,0 +1,29 @@
+.right-panel-buttons {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 45px;
+  gap: 10px;
+}
+
+.avatar-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: skyblue;
+  border: none;
+  font-size: 18px;
+}
+
+.add-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: navy;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

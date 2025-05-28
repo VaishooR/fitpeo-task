@@ -1,0 +1,71 @@
+.left-panel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.left-panel-search {
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.left-panel-dashboard {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dashboard-title {
+  font-size: 22px;
+  letter-spacing: -2px;
+  color: #2A2A64;
+}
+
+.dashboard-week {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.left-panel-body {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 10px;
+}
+
+.health-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 98%;
+}
+
+.details-link {
+  font-size: 10px;
+  height: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: -15px;
+}
+
+.details-link span {
+  margin-right: 5px;
+}
+
+.activity-wrapper {
+  width: 90%;
+  height: 130px;
+  background-color: #F6FAFF;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border-radius: 20px;
+}

@@ -1,0 +1,9 @@
+.body-container{
+    display: flex;
+    margin:12px;
+    height:96vh;
+    background-color: white; 
+    border-radius: 20px;
+    border-top-right-radius:20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9)
+}

@@ -1,0 +1,52 @@
+.health-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6FAFF;
+  padding: 8px 15px;
+  border-radius: 20px;
+  gap: 3px;
+  margin-bottom: 10px;
+}
+
+.health-parts {
+  font-size: 14px;
+}
+
+.health-parts span:first-child {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.card-date {
+  font-size: 10px;
+  color: grey;
+  margin: 3px 0px;
+}
+
+progress {
+  height: 7px;
+  border-radius: 10px;
+  overflow: hidden;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.custom-progress1::-webkit-progress-value {
+  background-color: #B54F50;
+  border-radius: 10px;
+}
+
+.custom-progress2::-webkit-progress-value {
+  background-color: #7CCCBF;
+  border-radius: 10px;
+}
+
+.custom-progress3::-webkit-progress-value {
+  background-color: #FF7F60;
+  border-radius: 10px;
+}
+

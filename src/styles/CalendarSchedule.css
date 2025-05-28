@@ -1,0 +1,60 @@
+.schedule-container {
+  display: flex;
+  gap: 15px;
+  font-size:10px;
+  border-radius: 12px;
+  color:navy
+}
+
+.day-column {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.today {
+  background-color: #eef1fc;
+}
+
+.day-header {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.day-name {
+  font-weight: bold;
+}
+
+.day-date {
+  font-size: 0.9rem;
+  margin: 3px 0;
+  font-weight:600;
+}
+
+.slots {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.slot {
+  padding: 7px 10px;
+  text-align: center;
+  border-radius: 6px;
+  color: navy;
+}
+
+.disableAll{
+  color: #797878;
+  opacity: 0.3;
+}
+
+.slot.disabled {
+  background-color: #f0f0f0;
+  opacity: 0.2;
+}
+
+.slot.active {
+  background-color: navy;
+  color: white;
+  height:12px;
+}
